@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 85vw;
+}
+
+
+.infoContainer{
+    /* background-color: rgb(255, 0, 212); */
+    height: 60vh;
+    width: 80vw;
+    margin: 56px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.devInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.hello{
+    font-size: 50px;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about{
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.moreabout{
+        font-size: 15px;
+    margin-top: 20px;
+    font-family: cursive;
+}
+
+.buttons{
+    margin-top: 40px;
+}
+.buttons button{
+    border-radius: 16px;
+    padding: 6px 14px;
+    margin-right: 15px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+
+.devPic img{
+    height: 60vh;
+}

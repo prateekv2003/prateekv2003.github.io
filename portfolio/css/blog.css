@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blogContainer h1{
+    font-family: cursive;
+    margin: 20px;
+}
+
+.blogItem{
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.blogItem p{
+    font-family: cursive;
+}
+
+.btn-sm{
+    border-radius: 16px;
+    padding: 3px 12px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.btn:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+
+.pages{
+    position: sticky;
+    width: 222px;
+    height: 31px;
+    margin: 20px auto 30px auto;
+    background-color: rgb(83, 83, 83);
+}
+.pages ul{
+    display: flex;
+    justify-content: center;
+    border: 2px black solid;
+    border-right: 0px;
+}
+.pages ul li{
+    list-style: none;
+    border-right: 2px black solid;
+    padding: 5px 10px;
+}
+
+.pages ul li a{
+    text-decoration: none;
+    color: white;
+}
