@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+.main-intro{
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro{
+    margin: 80px 0 0 42px;
+}
+.intro h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 16px;
+}
+
+.intro h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 16px;
+}
+
+.intro p{
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 16px;
+}
+
+.skillContainer{
+    margin-left: 20px;
+}
+
+.skillItem{
+    display: flex;
+    width: 40vw;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.range{
+    width: 25vw;
+    height: 10px;
+    background-color: rgb(226 226 226);
+    border: 1px black solid;
+    border-radius: 3px;
+}
+
+.skill{
+    height: 10px;
+    background-color: rgb(141 75 255);
+}
