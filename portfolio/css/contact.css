@@ -65,25 +65,6 @@
     background-color: white;
 }
 
-.status{
-    margin: 20px 50px;
-    padding: 0.5em 1em;
-    width: 400px;
-    border-radius: 10px;
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-    display: none;
-}
-.status-success{
-    background-image: linear-gradient(90deg, rgb(46, 255, 171) -37.7%, rgba(252, 251, 222, 0.46) 92%);
-}
-.status-failed{
-    background-image: linear-gradient(90deg, rgb(255 97 97) -37.7%, rgba(252, 251, 222, 0.46) 92%);
-}
-.status-failed{
-    white-space: nowrap;
-}
-
 @media (max-width: 500px) {
     .contactform{
         padding-top: 70px;
@@ -101,12 +82,4 @@
         width:auto;
         margin-right: 2em;
     }
-    .status{
-        margin-left: 18px;
-        width:auto;
-        margin-right: 2em;
-    }
-    .status-failed{
-        white-space: normal;
-    }
-}
+} 
