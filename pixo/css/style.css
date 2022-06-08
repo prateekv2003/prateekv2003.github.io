@@ -162,7 +162,7 @@ header{
     margin: 1em;
 }
 .logo{
-    background-image: linear-gradient(236deg, #EADEDB -7%, #BC70A4 40%, #BFD641 75%);
+    background-image: linear-gradient(236deg, #EADEDB -7%, #000000 40%, #5d7e5d 75%);
     color: rgb(255, 255, 255);
     font-size: 2em;
     font-weight: 600;
