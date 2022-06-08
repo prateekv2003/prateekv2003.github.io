@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3c61f9eb.css",
+    "main.js": "/static/js/main.a85be11f.js",
+    "static/media/portfolio-12.jpg": "/static/media/portfolio-12.514678f04bef9e6f8c65.jpg",
+    "static/media/portfolio-8.jpg": "/static/media/portfolio-8.3d64ac52647722b30837.jpg",
+    "static/media/portfolio-10.jpg": "/static/media/portfolio-10.f3b15e38cd0f0f65f842.jpg",
+    "static/media/portfolio-6.jpg": "/static/media/portfolio-6.4a127974b9ee9ad0802c.jpg",
+    "static/media/portfolio-4.jpg": "/static/media/portfolio-4.fe6e1d506a44d43f21d0.jpg",
+    "static/media/portfolio-2.jpg": "/static/media/portfolio-2.c4d8533911a73b7d9e97.jpg",
+    "static/media/hero-bg1.jpeg": "/static/media/hero-bg1.1d92e088ae09a3f3d175.jpeg",
+    "static/media/portfolio-3.jpg": "/static/media/portfolio-3.e1e6478da23b7bd4972a.jpg",
+    "static/media/portfolio-1.jpg": "/static/media/portfolio-1.683bc61b89f36b26f3c4.jpg",
+    "static/media/portfolio-9.jpg": "/static/media/portfolio-9.0c02096caf9692751faf.jpg",
+    "static/media/portfolio-11.jpg": "/static/media/portfolio-11.8c0e400b77d5875ee0ec.jpg",
+    "static/media/portfolio-5.jpg": "/static/media/portfolio-5.136a7d467a68664ab51f.jpg",
+    "static/media/who-we-are.jpg": "/static/media/who-we-are.865ac44110ad9fe3e066.jpg",
+    "static/media/portfolio-7.jpg": "/static/media/portfolio-7.f15a764813f068fdb6ba.jpg",
+    "index.html": "/index.html",
+    "main.3c61f9eb.css.map": "/static/css/main.3c61f9eb.css.map",
+    "main.a85be11f.js.map": "/static/js/main.a85be11f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c61f9eb.css",
+    "static/js/main.a85be11f.js"
+  ]
+}
