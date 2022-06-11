@@ -14,7 +14,7 @@ function convert_image(event){
             canvas.width = userImage.width;
             canvas.height = userImage.height;
             context.drawImage(userImage, 0, 0);
-            let wImageSrc = canvas.toDataURL("image/webp", 0.8);
+            let wImageSrc = canvas.toDataURL("image/webp");
             Wimage.src = wImageSrc;
             Download_btn.children[0].href = wImageSrc;
             Download_btn.style.display = "block";
