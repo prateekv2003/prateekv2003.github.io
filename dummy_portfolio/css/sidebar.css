@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    float: left;
+    background-color: rgb(226 226 226 / 85%);
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    transition: all 0.2s ease-in;
+}
+
+.sidebar nav{
+    padding: 45px 30px 45px 55px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+}
+
+/* ================= common main ================= */
+.main{
+    height: 100vh;
+    background-image: url(../img/bg_for_all.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw
+}
+
+
+.ham{
+    display: none;
+}
+.cross{
+    display: none;
+}
+
+@media (max-width: 890px) {
+    .sidebar{
+        position: absolute;
+    }
+    .sidebargo{
+        transform: translate(-311px, 0px);
+        position: absolute;
+    }
+    .ham{
+        display: block;
+        float: left;
+        margin: 1em;
+    }
+    .cross{
+        display: block;
+        float: right;
+        margin: 1em;
+    }
+} 
+
