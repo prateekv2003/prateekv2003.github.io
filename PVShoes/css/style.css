@@ -20,9 +20,12 @@
 
 html {
     font-size: 62.5%;
-    /* overflow: hidden; */
     scroll-padding-top: 6rem;
     scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
 }
 
 section {
